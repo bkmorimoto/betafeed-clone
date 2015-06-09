@@ -1,4 +1,3 @@
-require 'byebug'
 class FeedbacksController < ApplicationController
   def new
     @post = Post.find(params[:post_id])
