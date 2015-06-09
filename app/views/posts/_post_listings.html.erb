@@ -1,0 +1,22 @@
+<div class="posts-container row">
+  <div class="staff-picks-container medium-6 columns">
+    <div class="root-header">Our Favorites</div>
+    <div class="staff-picks-listing scrolling-listing">
+      <% posts.each do |post| %>
+        <% if post.staff_pick && post.accepted %>
+          <%= render partial: 'post_listing', locals: {post: post} %>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+  <div class="regular-picks-container medium-6 columns">
+    <div class="root-header">The Feed</div>
+    <div class="regular-picks-listing scrolling-listing">
+      <% posts.each do |post| %>
+        <% if !post.staff_pick && post.accepted %>
+          <%= render partial: 'post_listing', locals: {post: post} %>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>

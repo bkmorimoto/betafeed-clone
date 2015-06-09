@@ -1,0 +1,50 @@
+.feedback-listing-container .feedback-user-container {
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+.feedback-listing-container .feedback-comments-container {
+  margin-top: 20px;
+}
+
+.user-picture img {
+  margin: auto;
+  border-radius: 50%;
+  height: 35px;
+}
+
+.user-name {
+  padding-top: 10px;
+  height: 35px;
+}
+
+.feedback-listing-container .row {
+  max-width: 90%;
+  margin-left: 0px;
+}
+
+.row .comment {
+  padding-left: 0px;
+}
+
+.row .comment-upvote {
+  padding-left: 0px;
+}
+
+.feedback-listing-container {
+  max-width: 90%;
+}
+
+.feedback-comment .user-name {
+  padding-left: 0px;
+}
+
+.new-feedback-container {
+  padding-left: 0.9375rem;
+}
+
+.feedback-header {
+  font-size: 30px;
+  background-color: #f0efef;
+  padding: 50px;
+}
